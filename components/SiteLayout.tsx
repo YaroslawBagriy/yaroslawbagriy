@@ -25,6 +25,7 @@ const SiteLayout = ({
         <meta name="twitter:card" content={description} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={ogImage} />
+        <script src="https://cdn.usefathom.com/script.js" data-site="KDZBCGMS" defer></script>
       </Head>
 
       <div>
