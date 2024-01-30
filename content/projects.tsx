@@ -5,7 +5,7 @@ const newslettercrew = {
   title: "Newsletter Crew",
   link: "https://www.newslettercrew.com/",
   imageUrl: "/newsletter-crew-1.png",
-  slug: "newsletter-crew",
+  slug: "newslettercrew",
   description: `
         Educaider contains 800+ courses in New Zealand you can search from. I worked
         on implementing the design, adding a content-managed blog, search feature,
