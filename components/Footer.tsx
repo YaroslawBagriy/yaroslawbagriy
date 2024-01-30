@@ -20,7 +20,7 @@ const Footer = ({
       <div className="w-full bg-neutral-800 text-white">
         <div className="container text-center">
           <div className="py-24">
-            <h2 className="mb-10">Wanna work with me?</h2>
+            <h2 className="mb-10">Interested in working together?</h2>
 
             <div className="flex flex-col md:flex-row justify-center items-center space-y-3 md:space-y-0 md:space-x-5">
               <Button href={`mailto:${emailAddress}`} icon="fa-solid:envelope">

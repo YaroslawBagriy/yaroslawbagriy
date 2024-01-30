@@ -7,9 +7,7 @@ const newslettercrew = {
   imageUrl: "/newsletter-crew-1.png",
   slug: "newslettercrew",
   description: `
-        Educaider contains 800+ courses in New Zealand you can search from. I worked
-        on implementing the design, adding a content-managed blog, search feature,
-        course pages and campus pages.
+      Newsletter Crew, a platform consisting of a podcast, blog, and community for newsletter creators, was developed using no-code tools: Discord for community engagement, Ghost for blogging, Transistor for podcast hosting, and Memberful for membership management. It was successfully acquired in February 2021 for a six-figure sum.
       `,
   snippet: "Podcast, blog, and community for newsletter creators",
   skills: [
@@ -25,7 +23,7 @@ const newslettercrew = {
       name: "Sam Julien",
       position: "",
       description: `I have found Newsletter Crew to be a remarkably helpful and friendly community! I love being able to get feedback on things I'm working on and share ideas with other creators. I especially love that it includes folks from many different niches and industries. Great for getting out of the echo chamber!`,
-      imageUrl: "/profile.jpg",
+      imageUrl: "/sam-julien.jpg",
     },
   ],
 };
