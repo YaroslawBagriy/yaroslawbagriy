@@ -9,7 +9,7 @@ export const experiences: Array<Experience> = [
     dateStart: "Jan 2019",
     dateEnd: "Present",
     link: "https://www.starkey.com/",
-    snippet: "Starkey is one of the largest hearing aid manufacturers in the world.",
+    snippet: "Starkey stands as one of the world's foremost manufacturers of hearing aids, dedicated to creating the finest hearing aid solutions and accompanying technology.",
     description: (
       <>
         <p>
@@ -65,8 +65,8 @@ export const experiences: Array<Experience> = [
   {
     position: "Project Manager",
     company: "ReferralKit",
-    dateStart: "Feb 2021",
-    dateEnd: "Mar 2022",
+    dateStart: "Apr 2020",
+    dateEnd: "Apr 2021",
     link: "http://referralkit.co/",
     snippet: "Referral software made for growing newsletters",
     description: (
@@ -89,7 +89,7 @@ export const experiences: Array<Experience> = [
     projects: [],
   },
   {
-    position: "Manager",
+    position: "Product/Project Manager",
     company: "Newsletter Crew",
     dateStart: "Jan 2020",
     dateEnd: "Feb 2021",
@@ -121,7 +121,7 @@ export const experiences: Array<Experience> = [
     description: (
       <>
         <p>
-        I led the design and development of an iOS medical application, significantly enhancing patient adherence by 53%. My role extended to managing the end-to-end development of various internal applications, where I displayed exceptional leadership in complex project execution and demonstrated technical proficiency in iOS frameworks. Further showcasing my depth of knowledge, I authored and presented a strategic whitepaper on native versus hybrid development in the medical domain. This paper, along with a mobile products roadmap, was successfully communicated to a 300+ member R&D organization, highlighting my expertise in mobile technology and effective communication skills.
+          I led the design and development of an iOS medical application, significantly enhancing patient adherence by 53%. My role extended to managing the end-to-end development of various internal applications, where I displayed exceptional leadership in complex project execution and demonstrated technical proficiency in iOS frameworks. Further showcasing my depth of knowledge, I authored and presented a strategic whitepaper on native versus hybrid development in the medical domain. This paper, along with a mobile products roadmap, was successfully communicated to a 300+ member R&D organization, highlighting my expertise in mobile technology and effective communication skills.
         </p>
         <p>
           In my pursuit of innovation in healthcare technology, I pioneered a medical game prototype using Swift and delved into neural network concepts on iOS, emphasizing my commitment to advanced technical research. Additionally, I directed a multidisciplinary team in designing and implementing web applications using a variety of technologies, including Vue.js, PHP, and the MEAN stack. This role underscored my skills in full-stack development and team leadership.
@@ -132,6 +132,106 @@ export const experiences: Array<Experience> = [
       </>
     ),
     skills: [skills.swift, skills.ios, skills.django, skills.python, skills.angular, skills.express, skills.mongodb, skills.nodejs, skills.html, skills.css, skills.git],
+    projects: [],
+  },
+  {
+    position: "Software Engineer",
+    company: "XMedical",
+    dateStart: "Aug 2017",
+    dateEnd: "Sept 2017",
+    link: "https://www.linkedin.com/company/l-sm-icu/",
+    snippet: "XMedical is a mobile application designed to decrease hospital readmissions among COPD patients by leveraging advanced data analysis of environmental pollution metrics.",
+    description: (
+      <>
+        <p>
+          I led a team of five to secure a top 3 placement at the Google Start-up Weekend 2017 Hackathon, showcasing exceptional leadership and collaborative skills in a competitive setting. During this event, we engineered an iOS prototype designed to reduce hospital readmissions for COPD patients by using advanced data analysis of pollution metrics, demonstrating our innovative problem-solving abilities and technical expertise in healthcare technology.
+        </p>
+      </>
+    ),
+    skills: [skills.swift, skills.ios, skills.django, skills.python, skills.angular, skills.express, skills.mongodb, skills.nodejs, skills.html, skills.css, skills.git],
+    projects: [],
+  },
+  {
+    position: "Lead iOS Developer",
+    company: "Scout Out",
+    dateStart: "Mar 2015",
+    dateEnd: "Sept 2016",
+    link: "https://www.scoutoutapp.com/",
+    snippet: "Scout Out is a nightlife discovery app matching you with an awesome new place to try, but you won't know the name of it until you arrive.",
+    description: (
+      <>
+        <p>
+          I led the complete development of an innovative iOS application designed for entertainment decision-making, covering all aspects from concept to design, implementation, and successful market launch, demonstrating my extensive skills in mobile app development. I managed the technicalities of code signing, provisioning, and App Store deployment, ensuring smooth, compliant application releases.
+        </p>
+        <p>
+          In addition, I designed and implemented a RESTful API, paving the way for easy expansion into web applications, indicating my foresight in software architecture and scalability. I revamped the frontend using the MVC architectural pattern, greatly improving the application's extensibility and maintainability for future updates. 
+        </p>
+        <p>
+          Furthermore, I optimized the core algorithm to eliminate bugs and enhance the user experience, underscoring my commitment to product quality and customer satisfaction.
+        </p>
+      </>
+    ),
+    skills: [skills.swift, skills.ios, skills.git],
+    projects: [],
+  },
+  {
+    position: "Project Engineer",
+    company: "Open Systems International",
+    dateStart: "Jan 2015",
+    dateEnd: "Feb 2016",
+    link: "https://www.osii.com/",
+    snippet: "Open Systems International designs scalable Operations Technology (OT) solutions that utility companies of various sizes can implement to monitor, control, and enhance their real-time operations.",
+    description: (
+      <>
+        <p>
+          I helped with the design, configuration, testing, and integration of SCADA systems, showcasing advanced technical expertise and leadership in complex system environments. I effectively delegated tasks such as networking and server installation to technical specialists, optimizing team expertise and workflow efficiency in critical projects. My role also involved providing comprehensive support for customer software issues, both virtually and in-person, demonstrating exceptional problem-solving skills and a customer-focused approach.
+        </p>
+        <p>
+          In addition to technical duties, I cultivated and maintained strong professional relationships with customers, reflecting a commitment to excellent client service and communication skills. I led daily team meetings to review project deadlines and tasks, ensuring timely project delivery and effective team coordination. This underscores my strong organizational and management capabilities.
+        </p>
+      </>
+    ),
+    skills: [],
+    projects: [],
+  },
+  {
+    position: "Embedded Software Engineer",
+    company: "Danfoss Power Solutions",
+    dateStart: "Jun 2013",
+    dateEnd: "Sept 2014",
+    link: "https://www.danfoss.com/en/",
+    snippet: "Danfoss Power Solutions excels as a global supplier of mobile hydraulic solutions for markets such as construction, agriculture, and various other off-highway vehicle sectors.",
+    description: (
+      <>
+        <p>
+          I developed a Hardware Abstraction Layer in C, which was crucial in modernizing several product lines, significantly reducing obsolescence and enhancing system functionality. By utilizing GNU Open Source tools, I optimized the development process, effectively speeding up time-to-delivery and cutting project costs, showcasing my proficiency in creating cost-effective and efficient software solutions.
+        </p>
+        <p>
+          Additionally, I engineered a modular hardware testing system that innovatively reduced the product testing duration by two weeks, demonstrating my strong capabilities in system design and efficiency improvement.
+        </p>
+      </>
+    ),
+    skills: [],
+    projects: [],
+  },
+  {
+    position: "Electrical Engineer",
+    company: "Turck",
+    dateStart: "Jun 2012",
+    dateEnd: "Sept 2012",
+    link: "https://www.turck.us/en/",
+    snippet: "Turck USA excels as an expert in the fields of sensor technology, fieldbus systems, and connectivity products, along with interface technology, human-machine interfaces (HMI), and RFID systems.",
+    description: (
+      <>
+        <p>
+          I wrote advanced firmware in C to significantly enhance and expand the capabilities of hardware modules to take in ambient temperature input, showcasing a strong emphasis on functional improvement and technical innovation.
+        </p>
+        <p>
+          Additionally, I conducted thorough Electromagnetic Compatibility (EMC) testing on products to ensure they met industry standards, thereby enhancing product reliability. To further streamline these processes, I modernized the EMC test code using Visual Basic, leading to more efficient and effective testing protocols.
+        </p>
+      </>
+    ),
+    skills: [],
     projects: [],
   },
 ];
