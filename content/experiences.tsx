@@ -45,7 +45,7 @@ export const experiences: Array<Experience> = [
     dateStart: "Feb 2021",
     dateEnd: "Mar 2022",
     link: "http://playgroup.community/",
-    snippet: "Forum software made for engaging online communities",
+    snippet: "Modern forum software made for engaging online communities",
     description: (
       <>
         <p>
@@ -60,7 +60,7 @@ export const experiences: Array<Experience> = [
       skills.trello,
       skills.ux,
     ],
-    projects: [],
+    projects: [projects.playgroup],
   },
   {
     position: "Project Manager",

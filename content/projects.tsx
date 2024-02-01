@@ -1,6 +1,52 @@
 import Project from "../types/project";
 import {skills} from "./skills";
 
+const playgroup = {
+  title: "Playgroup",
+  link: "https://www.playgroup.community/",
+  imageUrl: "/playgroup-1.png",
+  slug: "playgroup",
+  description: `
+      Playgroup is a contemporary forum software designed to foster engaging online communities. It seamlessly integrates with platforms like Ghost, Memberful, MemberSpace, MemberStack, and MemberPress, allowing users to easily create a community connected to their existing site. One of Playgroup's key features is its ability to import content and user data from other platforms, making transitions smooth and hassle-free. The forum offers standard functionalities such as channels, threads, and comments, and provides the flexibility of having both public and private forums. Built using NextJS, Playgroup optimizes SEO for public forums, ensuring greater online visibility. Additionally, it offers the capability to export community content, facilitating easy migration to other forum platforms. To enhance user engagement, Playgroup sends weekly email digests summarizing community activities, keeping members informed and connected.
+      `,
+  snippet: "Modern forum software made for engaging online communities",
+  skills: [
+    skills.trello,
+    skills.figma,
+    skills.nextjs,
+  ],
+  images: [
+    "/playgroup-1.png",
+    "/playgroup-2.png",
+    "/playgroup-3.png",
+    "/playgroup-4.png",
+    "/playgroup-5.png",
+    "/playgroup-6.png",
+    "/playgroup-7.png",
+    "/playgroup-8.png",
+  ],
+  testimonials: [
+    {
+      name: "Justin Jackson",
+      position: "Founder",
+      description: `In the past I've used phpBB and Discourse for my community's forums. They were a pain to maintain and looked terrible. Since I switched to Playgroup, my members are happier and I'm happier!`,
+      imageUrl: "/justin-jackson.jpg",
+    },
+    {
+      name: "Dan Rowden",
+      position: "Community Manager",
+      description: `I've been a moderator with MegaMaker for years and we've switched over from Discourse in a matter of minutes. I love the fresh look and structure Playgroup provides — excited to use it some more!`,
+      imageUrl: "/jon-friesen.jpg",
+    },
+    {
+      name: "Dan Rowden",
+      position: "Developer Experience Engineer",
+      description: `A solid community/forum newcomer, but it's the pricing that stands out for me. The $0/m and $19/m plans for are unmatched (from what I've seen) in the market. (Also the playable demo on the homepage is 👌)`,
+      imageUrl: "/dan-rowden.jpg",
+    },
+  ],
+};
+
 const newslettercrew = {
   title: "Newsletter Crew",
   link: "https://www.newslettercrew.com/",
@@ -50,7 +96,12 @@ const referrakit = {
       `,
   snippet: "Referral software made for growing newsletters",
   skills: [
-    skills.trello
+    skills.nodejs,
+    skills.js,
+    skills.tailwind,
+    skills.html,
+    skills.trello,
+    skills.figma,
   ],
   images: [
     "/referralkit-1.png",
@@ -61,12 +112,16 @@ const referrakit = {
 };
 
 export const projects: { [key: string]: Project } = {
+  playgroup: {
+    ...playgroup,
+    otherProjects: [referrakit, newslettercrew],
+  },
   newslettercrew: {
     ...newslettercrew,
-    otherProjects: [referrakit],
+    otherProjects: [referrakit, playgroup],
   },
   referrakit: {
     ...referrakit,
-    otherProjects: [newslettercrew],
+    otherProjects: [newslettercrew, playgroup],
   },
 };
