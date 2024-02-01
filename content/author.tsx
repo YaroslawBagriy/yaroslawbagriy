@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export const author = {
   name: 'Yaroslaw Bagriy',
-  role: 'Senior Software Engineer',
+  role: 'Software Engineer Manager',
   emailAddress: 'yaroslawbagriy@gmail.com',
   about: (
     <>
       <p>Hey, I&apos;m Yaroslaw! 👋</p>
 
       <p>
-        As a Senior Software Engineer with a decade of experience in iOS, Android, Web and Embedded Development, and a degree in Electrical Engineering, I've successfully led projects in the medical device sector and entrepreneurial web application ventures. 
+        As a Software Engineer Manager with a decade of experience in iOS, Android, Web and Embedded Development, and a degree in Electrical Engineering, I've successfully led projects and teams in the medical device sector and entrepreneurial web application ventures. 
       </p>
 
       <p>
