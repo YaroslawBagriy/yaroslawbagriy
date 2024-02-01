@@ -40,9 +40,33 @@ const newslettercrew = {
   ],
 };
 
+const referrakit = {
+  title: "ReferralKit",
+  link: "https://referralkit.co/",
+  imageUrl: "/referralkit-1.png",
+  slug: "referrakit",
+  description: `
+      ReferralKit is a referral software tailored for expanding newsletters, streamlining the referral process with its user-friendly features. It offers seamless email integration, allowing users to effortlessly incorporate their subscriber lists and embed unique referral links, rewards, and referral counts into every email. The software's versatility extends to its rewards system, where users can create a variety of rewards for different referral milestones, including digital products and physical goods. Additionally, ReferralKit enhances user experience with its automation capability, sending fully automated emails as soon as new subscribers are referred, ensuring a smooth and efficient referral journey.
+      `,
+  snippet: "Referral software made for growing newsletters",
+  skills: [
+    skills.trello
+  ],
+  images: [
+    "/referralkit-1.png",
+    "/referralkit-2.png",
+    "/referralkit-3.png",
+  ],
+  testimonials: [],
+};
+
 export const projects: { [key: string]: Project } = {
   newslettercrew: {
     ...newslettercrew,
-    otherProjects: [],
+    otherProjects: [referrakit],
+  },
+  referrakit: {
+    ...referrakit,
+    otherProjects: [newslettercrew],
   },
 };

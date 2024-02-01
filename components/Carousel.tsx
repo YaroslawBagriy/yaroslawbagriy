@@ -18,15 +18,15 @@ const Carousel = (props: {
     <CarouselProvider
       className={className}
       naturalSlideWidth={100}
-      naturalSlideHeight={0}
+      naturalSlideHeight={75} // Adjusted to maintain a specific aspect ratio
       totalSlides={images.length}
       isIntrinsicHeight={true}
     >
       <Slider className="mb-5">
         {images.map((image, index) => (
           <Slide key={index} index={index}>
-            <div className="w-full">
-              <Image src={image} alt="" width="1000" height="750" />
+            <div className="w-full relative" style={{ paddingTop: '75%' }}> {/* Adjust padding to maintain aspect ratio */}
+              <Image src={image} alt="" layout="fill" objectFit="contain" />
             </div>
           </Slide>
         ))}

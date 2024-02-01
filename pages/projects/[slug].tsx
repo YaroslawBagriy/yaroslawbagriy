@@ -49,13 +49,7 @@ const ProjectsPage = (props: ProjectsPageProps) => {
             <Carousel images={images} className="mb-5" title={title} />
           ) : (
             <div className="mb-5">
-              <Image
-                src={imageUrl}
-                className="mb-5"
-                width="1000"
-                height="750"
-                alt={`${title} screenshot`}
-              />
+              <Image src={imageUrl} className="mb-5" layout="fill" objectFit="contain" alt={`${title} screenshot`} />
             </div>
           )}
 

@@ -10,7 +10,7 @@ const Project = (props: { content: IProject }): ReactElement => {
     <Link href={`/projects/${slug}`} passHref>
       <a>
         <div className="relative w-full rounded mb-5 overflow-hidden aspect-4/3">
-          <Image src={imageUrl} layout="fill" objectFit="cover" alt="" />
+          <Image src={imageUrl} layout="fill" objectFit="contain" alt="" />
           <div className="absolute top-0 left-0 w-full h-full bg-primary rounded opacity-0 hover:opacity-100 transition-all duration-500 flex items-center justify-center font-bold text-white text-xl">
             Read more
           </div>

@@ -72,10 +72,10 @@ export const experiences: Array<Experience> = [
     description: (
       <>
         <p>
-          In my recent project, I demonstrated comprehensive project management skills by efficiently managing a $40,000 self-funded budget, ensuring both optimal resource allocation and cost-effectiveness. My leadership extended to guiding and mentoring a team of two software engineers, where I fostered a collaborative environment crucial for the project's success. Utilizing my expertise in software development and project management, I played a pivotal role in directing the team's efforts and ensuring cohesive progress.
+          I founded this project that concluded with a profitable acquisition, securing a deal in the five-figure range. My role was integral in the acquisition process, where I showcased my skills in negotiation, strategic planning, and realizing the project's value. Leading a small yet diverse team consisting of a developer and a UI/UX designer, I ensured effective collaboration, integrating both development and design elements seamlessly to meet our project objectives.
         </p>
         <p>
-          To streamline task management and maintain project momentum, I implemented Trello. This tool was instrumental in tracking and coordinating development activities throughout the project lifecycle, ensuring that no detail was overlooked. Additionally, I held biweekly meetings to closely monitor project progress, address any emerging issues promptly, and provide constructive feedback. This regular oversight was key in maintaining strict adherence to project timelines and upholding the highest quality standards, ultimately contributing to the successful completion of the project.
+          My approach to project management was methodical and efficient, utilizing Trello to maintain an organized workflow and ensure clear communication throughout the project's lifecycle. This strategy was pivotal in achieving timely project completion. I also placed a strong emphasis on regular team engagement, conducting biweekly meetings to review progress, address challenges, and provide constructive feedback. This approach fostered a proactive and responsive team atmosphere. Additionally, I was actively involved in the design phase, using Figma to provide critical input on UI/UX design, thereby enhancing the user experience and aligning the design with the overall project goals.
         </p>
       </>
     ),
@@ -86,7 +86,7 @@ export const experiences: Array<Experience> = [
       skills.figma,
       skills.trello
     ],
-    projects: [],
+    projects: [projects.referrakit],
   },
   {
     position: "Product/Project Manager",
