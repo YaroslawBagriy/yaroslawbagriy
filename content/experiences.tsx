@@ -37,7 +37,7 @@ export const experiences: Array<Experience> = [
       skills.scrum,
       skills.jira,
     ],
-    projects: [],
+    projects: [projects.mystarkey],
   },
   {
     position: "Project Manager",

@@ -1,6 +1,39 @@
 import Project from "../types/project";
 import {skills} from "./skills";
 
+const mystarkey = {
+  title: "My Starkey",
+  link: "https://www.starkey.com/hearing-aids/apps/my-starkey/overview",
+  imageUrl: "/mystarkey-1.png",
+  slug: "mystarkey",
+  description: `
+      The My Starkey app, tailored for Genesis AI hearing aids, revolutionizes the hearing aid experience by integrating advanced control features, personal well-being tools, and everyday conveniences into a single user-friendly platform. Beyond basic hearing aid adjustments and streaming capabilities, it offers unique functionalities like voice-activated Smart Assistant, industry-first Fall Detection, AI-enhanced sound optimization with Edge Mode+, and personal health monitoring. Additionally, it simplifies life with language translation, reminders, and TeleHear for remote adjustments via video chat, making it a comprehensive solution for enhanced listening experiences, improved well-being, and easier daily living.
+  `,
+  snippet: "Flagship mobile app designed exclusively for the Genesis line of Hearing Aids by Starkey",
+  skills: [
+    skills.swift,
+    skills.ios,
+    skills.kotlin,
+    skills.firebase,
+    skills.git,
+    skills.jira,
+    skills.figma,
+  ],
+  images: [
+    "/mystarkey-2.png",
+    "/mystarkey-3.png",
+    "/mystarkey-4.png",
+    "/mystarkey-5.png",
+    "/mystarkey-6.png",
+    "/mystarkey-7.png",
+    "/mystarkey-8.png",
+    "/mystarkey-9.png",
+    "/mystarkey-10.png",
+    "/mystarkey-11.png",
+  ],
+  testimonials: [],
+};
+
 const playgroup = {
   title: "Playgroup",
   link: "https://www.playgroup.community/",
@@ -132,20 +165,24 @@ const scoutout = {
 };
 
 export const projects: { [key: string]: Project } = {
+  mystarkey: {
+    ...mystarkey,
+    otherProjects: [referrakit, newslettercrew, scoutout],
+  },
   playgroup: {
     ...playgroup,
-    otherProjects: [referrakit, newslettercrew, scoutout],
+    otherProjects: [mystarkey, newslettercrew, scoutout],
   },
   newslettercrew: {
     ...newslettercrew,
-    otherProjects: [referrakit, playgroup, scoutout],
+    otherProjects: [referrakit, playgroup, mystarkey],
   },
   referrakit: {
     ...referrakit,
-    otherProjects: [newslettercrew, playgroup, scoutout],
+    otherProjects: [newslettercrew, playgroup, mystarkey],
   },
   scoutout: {
     ...scoutout,
-    otherProjects: [newslettercrew, playgroup, referrakit],
+    otherProjects: [mystarkey, playgroup, referrakit],
   },
 };
