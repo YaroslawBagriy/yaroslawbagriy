@@ -172,7 +172,7 @@ export const experiences: Array<Experience> = [
       </>
     ),
     skills: [skills.swift, skills.ios, skills.git],
-    projects: [],
+    projects: [projects.scoutout],
   },
   {
     position: "Project Engineer",

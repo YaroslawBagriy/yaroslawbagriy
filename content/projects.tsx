@@ -111,17 +111,41 @@ const referrakit = {
   testimonials: [],
 };
 
+const scoutout = {
+  title: "Scout Out",
+  link: "https://scoutoutapp.com/",
+  imageUrl: "/scoutout-1.png",
+  slug: "scoutout",
+  description: `
+      Scout Out is a nightlife discovery app designed to spice up your evenings by matching you with exciting new bars without revealing their names until you arrive. By simply setting your preferences in the app, Scout Out curates a mystery pub crawl experience for you, all at no cost. Users select their desired bar type, and the app takes care of the rest, guiding them on an adventure to discover a new bar. The journey to the mystery location is part of the excitement, as the app provides a path to follow without turn-by-turn directions, making each outing an exploration. Once you reach your destination, you're introduced to an awesome bar that might have otherwise remained off your radar, offering a unique way to enjoy the nightlife.
+  `,
+  snippet: "Mobile app that creates mystery pub crawls",
+  skills: [
+    skills.swift,
+    skills.ios,
+    skills.git,
+  ],
+  images: [
+    "/scoutout-1.png",
+  ],
+  testimonials: [],
+};
+
 export const projects: { [key: string]: Project } = {
   playgroup: {
     ...playgroup,
-    otherProjects: [referrakit, newslettercrew],
+    otherProjects: [referrakit, newslettercrew, scoutout],
   },
   newslettercrew: {
     ...newslettercrew,
-    otherProjects: [referrakit, playgroup],
+    otherProjects: [referrakit, playgroup, scoutout],
   },
   referrakit: {
     ...referrakit,
-    otherProjects: [newslettercrew, playgroup],
+    otherProjects: [newslettercrew, playgroup, scoutout],
+  },
+  scoutout: {
+    ...scoutout,
+    otherProjects: [newslettercrew, playgroup, referrakit],
   },
 };
