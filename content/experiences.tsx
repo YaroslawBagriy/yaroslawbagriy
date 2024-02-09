@@ -40,7 +40,7 @@ export const experiences: Array<Experience> = [
     projects: [projects.mystarkey],
   },
   {
-    position: "Project Manager",
+    position: "Product Manager",
     company: "Playgroup",
     dateStart: "Feb 2021",
     dateEnd: "Mar 2022",
@@ -63,7 +63,7 @@ export const experiences: Array<Experience> = [
     projects: [projects.playgroup],
   },
   {
-    position: "Project Manager",
+    position: "Product Manager",
     company: "ReferralKit",
     dateStart: "Apr 2020",
     dateEnd: "Apr 2021",
@@ -89,7 +89,7 @@ export const experiences: Array<Experience> = [
     projects: [projects.referrakit],
   },
   {
-    position: "Product/Project Manager",
+    position: "Product Manager",
     company: "Newsletter Crew",
     dateStart: "Jan 2020",
     dateEnd: "Feb 2021",
