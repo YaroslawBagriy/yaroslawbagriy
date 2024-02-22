@@ -192,10 +192,6 @@ export const projects: { [key: string]: Project } = {
     ...mystarkey,
     otherProjects: [referrakit, newslettercrew, thrive],
   },
-  thrive: {
-    ...thrive,
-    otherProjects: [mystarkey, newslettercrew, scoutout],
-  },
   playgroup: {
     ...playgroup,
     otherProjects: [mystarkey, newslettercrew, scoutout],
@@ -203,6 +199,10 @@ export const projects: { [key: string]: Project } = {
   newslettercrew: {
     ...newslettercrew,
     otherProjects: [referrakit, playgroup, mystarkey],
+  },
+  thrive: {
+    ...thrive,
+    otherProjects: [mystarkey, newslettercrew, scoutout],
   },
   referrakit: {
     ...referrakit,
