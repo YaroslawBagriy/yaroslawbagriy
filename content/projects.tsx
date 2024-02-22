@@ -28,8 +28,31 @@ const mystarkey = {
     "/mystarkey-7.png",
     "/mystarkey-8.png",
     "/mystarkey-9.png",
-    "/mystarkey-10.png",
-    "/mystarkey-11.png",
+    "/mystarkey-10.png"
+  ],
+  testimonials: [],
+};
+
+const thrive = {
+  title: "Thrive",
+  link: "https://www.starkey.com/hearing-aids/apps/thrive-hearing-control/overview",
+  imageUrl: "/thrive-1.png",
+  slug: "thrive",
+  description: `
+    The Thrive app transforms Bluetooth hearing aids into a versatile tool controllable via smartphones, allowing users to adjust settings and access innovative features for improved hearing and lifestyle. It's user-friendly, offering health tracking, assistive tools like phone finding, translation, transcription, and performance checks, as well as hearing enhancements such as a Mask Mode for clearer communication with masked speakers.
+  `,
+  snippet: "Flagship mobile app designed exclusively for the Livio line of Hearing Aids by Starkey",
+  skills: [
+    skills.swift,
+    skills.ios,
+    skills.kotlin,
+    skills.firebase,
+    skills.git,
+    skills.jira,
+    skills.figma,
+  ],
+  images: [
+    "/thrive-1.png",
   ],
   testimonials: [],
 };
@@ -167,7 +190,11 @@ const scoutout = {
 export const projects: { [key: string]: Project } = {
   mystarkey: {
     ...mystarkey,
-    otherProjects: [referrakit, newslettercrew, scoutout],
+    otherProjects: [referrakit, newslettercrew, thrive],
+  },
+  thrive: {
+    ...thrive,
+    otherProjects: [mystarkey, newslettercrew, scoutout],
   },
   playgroup: {
     ...playgroup,
