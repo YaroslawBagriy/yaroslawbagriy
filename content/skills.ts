@@ -19,7 +19,7 @@ export const skills: { [key: string]: Skill } = {
   csharp: {
     name: "C#",
     slug: "csharp",
-    icon: "logos:csharp",
+    icon: "logos:c-sharp",
   },
   kotlin: {
     name: "Kotlin",
@@ -177,7 +177,7 @@ export const skills: { [key: string]: Skill } = {
 };
 
 export const featuredSkills: Array<Skill> = [
-  skills.swift, skills.scrum, skills.react, skills.nextjs, skills.nodejs, skills.js,
+  skills.swift, skills.csharp, skills.react, skills.nextjs, skills.nodejs, skills.js,
   skills.ts, skills.tailwind, skills.html, skills.css, skills.python, skills.firebase, skills.git, skills.jira,
   skills.trello, skills.figma
 ]
