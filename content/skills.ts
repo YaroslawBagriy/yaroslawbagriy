@@ -177,7 +177,6 @@ export const skills: { [key: string]: Skill } = {
 };
 
 export const featuredSkills: Array<Skill> = [
-  skills.swift, skills.csharp, skills.react, skills.nextjs, skills.nodejs, skills.js,
-  skills.ts, skills.tailwind, skills.html, skills.css, skills.python, skills.firebase, skills.git, skills.jira,
-  skills.trello, skills.figma
+  skills.python, skills.swift, skills.csharp, skills.react, skills.nextjs, skills.nodejs, skills.js,
+  skills.ts, skills.tailwind, skills.html, skills.css, skills.firebase, skills.git
 ]
