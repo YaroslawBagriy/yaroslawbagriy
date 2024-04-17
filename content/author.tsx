@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const author = {
   name: 'Yaroslaw Bagriy',
-  role: 'Software Engineer Manager | Product Manager',
+  role: 'AI/ML Engineer | Software Engineer Manager | Product Manager',
   emailAddress: 'yaroslawbagriy@gmail.com',
   about: (
     <>

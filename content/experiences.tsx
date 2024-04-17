@@ -152,7 +152,7 @@ export const experiences: Array<Experience> = [
     projects: [],
   },
   {
-    position: "Lead iOS Developer",
+    position: "Software Engineer",
     company: "Scout Out",
     dateStart: "Mar 2015",
     dateEnd: "Sept 2016",
