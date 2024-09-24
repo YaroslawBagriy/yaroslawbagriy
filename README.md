@@ -4,5 +4,4 @@ My expertise encompasses managing multidisciplinary teams, driving projects from
 
 ## Currently working on
 
-- [Strategic Leadership and Management Graduate Certificate](https://giesonline.illinois.edu/credential/strategic-leadership-and-management-graduate-certificate) at the University of Illinois Urbana-Champaign
-- [Graduate Certificate in Artificial Intelligence Foundations](https://software.stthomas.edu/degree/certificates/artificial-intelligence/) at the University of St. Thomas
+- [Masters of Artificial Intelligence](https://software.stthomas.edu/degree/masters/artificial-intelligence/) at the University of St. Thomas
