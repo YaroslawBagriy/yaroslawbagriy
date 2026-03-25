@@ -1,3 +1,5 @@
+## Hi, I'm Yaroslaw
+
 <p align="left"> 
 
   <!-- Python | 深蓝，和整体科技蓝风格协调 -->
@@ -17,9 +19,13 @@
 
 </p>
 
-As a Software Engineer Manager & Product Manager with a decade of experience in iOS, Android, Web and Embedded Development, and a degree in Electrical Engineering, I've successfully led projects and teams in the medical device sector and entrepreneurial web application ventures.
+I’m an AI and Machine Learning engineer with a focus on Deep Learning, LLMs, and Agentic Systems.
 
-My expertise encompasses managing multidisciplinary teams, driving projects from ideation to acquisition, and blending technical skills with business acumen. Passionate about innovation, I've consistently delivered cutting-edge solutions and inspired excellence in team performance.
+My work centers on building practical intelligent systems: developing and evaluating models, designing reliable ML pipelines, implementing MLOps workflows, and creating agent architectures that can reason, retrieve, and act in production environments.
+
+Right now, I’m focused on applied machine learning, LLM-powered systems, cloud-based AI workflows, and the engineering patterns needed to make intelligent systems scalable, observable, and useful in the real world.
+
+I enjoy working at the intersection of research and engineering, turning ideas into production-ready systems with clear technical and business impact.
 
 ## Currently working on
 
